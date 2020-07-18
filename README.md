@@ -4,18 +4,17 @@
 styles/
 |
 |– abstracts/
-|   |– _breakpoint.scss         # Breakpoint variables
-|   |– _variables.scss          # Global variables
+|   |– _functions.scss          # Sass Functions
+|   |– _mixins.scss             # Sass Mixins
+|   |– _utilities.scss          # Sass Utilities
+|   |– _variables.scss          # Sass Variables
 |   ...                         # Etc…
 |
 |– base/
+|   |– _animations.scss         # Animation Keyframes
 |   |– _elements.scss           # Default Element Definitions
 |   |– _normalize.scss          # Normalize
 |   |– _typography.scss         # Typography
-|   ...                         # Etc…
-|
-|– functions/
-|   |– _palette.scss            # Palette Function
 |   ...                         # Etc…
 |
 |– layout/
@@ -24,19 +23,14 @@ styles/
 |   |– _html.scss               # Html specific styles
 |   ...                         # Etc…
 |
-|– mixin/
-|   |– _breakpoint.scss         # Breakpoint
-|   |– _flex.scss               # Flex
+|– themes/
+|   |– _all.scss                # Default Theme
 |   ...                         # Etc…
 |
-|– palettes/
-|   |– _all.scss                # Color Palette Definitions
+|– vendors/
+|   |– _vuetify.scss            # Vuetify
 |   ...                         # Etc…
 |
-|– utilities/
-|   |– _spacing.scss            # White Spacing Rules
-|   ...                         # Etc…
-|
-`- core.scss                    # to use inside the components
-`– main.scss                    # Primary Sass file
+`- core.scss                    # Shared Sass file
+`– main.scss                    # Main Sass file
 ```
