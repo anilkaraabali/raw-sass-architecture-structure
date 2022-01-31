@@ -2,6 +2,12 @@
 
 ![cover](https://user-images.githubusercontent.com/26669259/151860551-aa7147ef-4383-444d-b1c0-0b46c475aa77.png)
 
+<p align="center">
+  <strong>
+  • <a target="_blank" rel="noopener noreferrer" href="https://anilkaraabali.github.io/raw-sass-architecture-structure/">Documentation</a> •
+  </strong>
+</p>
+
 ## Project Structure
 
 Assuming you named `styles`, you will see the following files generated under a new directory `styles/`:
@@ -25,3 +31,7 @@ styles/
 ├── global.scss
 └── index.scss
 ```
+
+## License
+
+[MIT](LICENSE)
