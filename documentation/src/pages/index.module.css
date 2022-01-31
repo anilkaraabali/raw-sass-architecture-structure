@@ -1,0 +1,57 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.main-wrapper {
+  flex: 1 0 auto;
+}
+
+.hero {
+  color: var(--ifm-heading-color);
+  height: calc(100vh - 60px);
+  overflow: hidden;
+  padding: 70px 2rem 0;
+}
+
+.container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  max-width: 1200px;
+  text-align: center;
+}
+
+.title {
+  font-size: 128px;
+  line-height: 138px;
+}
+
+.important {
+  color: var(--ifm-color-primary);
+}
+
+.external-link {
+  margin-left: 1rem;
+}
+
+.img {
+  transform: translateY(20px);
+}
+
+.actions {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.doc-button {
+  align-items: center;
+  display: flex;
+}
+
+.doc-button svg {
+  margin-left: 12px;
+}
