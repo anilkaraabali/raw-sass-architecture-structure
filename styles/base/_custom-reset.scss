@@ -1,0 +1,23 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+/* Remove for any elements */
+*:focus {
+  outline: none;
+}
+
+button,
+input,
+select,
+textarea {
+  border-style: none;
+}
+
+h1 {
+  font-size: initial;
+  margin: initial;
+}

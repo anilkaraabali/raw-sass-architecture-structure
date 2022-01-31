@@ -1,0 +1,7 @@
+html {
+  /* Keep base font-size to 10px, so it is easy to compute the REMs */
+  font-size: 62.5%;
+
+  /* Prevent any object from being highlighted upon touch event */
+  -webkit-tap-highlight-color: transparent;
+}

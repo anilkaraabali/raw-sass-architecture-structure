@@ -1,0 +1,12 @@
+body {
+  background: color(grey-lighten-5);
+
+  /* To provide the contextual adjustment of inter-glyph spacing. */
+  font-kerning: normal;
+
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+}

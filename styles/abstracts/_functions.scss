@@ -1,8 +1,27 @@
-@function getColor($key, $alpha: 1) {
-  @if map-has-key($colors, $key) {
-    @return rgba(map-get($colors, $key), $alpha);
-  }
+@use "sass:math";
 
-  @warn "Unknown `#{$key}` in $colors.";
-  @return null;
+@function spacing($multiplier: 1) {
+  $roundedNumber: math.round($multiplier);
+
+  @if $roundedNumber != $multiplier {
+    @warn "Only integers are accepted, #{$multiplier} has been rounded to #{$roundedNumber}";
+  }
+  @return calc(var(--spacing) * #{$roundedNumber});
+}
+
+@function isInList($value, $list) {
+  @return (false != index($list, $value));
+}
+
+@function color($val) {
+  @if isInList($val, $colors) {
+    @return var(--color-#{$val});
+  } @else {
+    @warn "Unknown `#{$val}` in $colors.";
+  }
+}
+
+@function pxToRem($value) {
+  $remValue: ($value / 16) + rem;
+  @return $remValue;
 }
