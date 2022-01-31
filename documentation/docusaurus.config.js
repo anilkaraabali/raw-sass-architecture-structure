@@ -7,13 +7,13 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Raw SASS Architecture Structure",
-  url: "https://your-docusaurus-test-site.com",
-  baseUrl: "/",
+  url: "https://anilkaraabali.github.io",
+  baseUrl: "/raw-sass-architecture-structure/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
-  organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  organizationName: "anilkaraabali",
+  projectName: "raw-sass-architecture-structure",
   noIndex: true,
 
   presets: [
